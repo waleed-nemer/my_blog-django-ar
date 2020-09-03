@@ -2,7 +2,32 @@
     font-family: 'Tajawal';
     src: url('../fonts/Tajawal-Regular.ttf')  format("truetype");
          local('Tajawal');
-   }
+}
+
+
+@font-face{
+    font-family: 'Cairo';
+    src: url('../fonts/cairo-Regular.ttf')format("truetype"),
+    local('Cairo');
+}
+
+@font-face{
+    font-family: 'Prata';
+    src: url('../fonts/Prata-Regular.ttf')format("truetype"),
+    local('Prata');
+}
+
+@font-face{
+    font-family: 'Trirong';
+    src: url('../fonts/Trirong-Regular.ttf')format("truetype"),
+    local('Trirong');
+}
+
+
+
+
+
+   
 
 html, body{
 
@@ -12,7 +37,7 @@ html, body{
 
 
 body{
-       font-family: 'Tajawal', sans-serif;
+       font-family: 'Trirong', sans-serif;
 }
 
 .dropdown-menu .dropdown-item{
@@ -21,11 +46,11 @@ body{
 }
 
 .bg-secondary{
-    background: #666 !important;
+    background: #252c37 !important;
 }
 
 .bg-light{
-    background: #ccc !important;
+    background: #252c37 !important;
 }
 
 .post{
@@ -59,4 +84,19 @@ body{
 .btn-editing {
    float: left;
 }
+
+about {
+    background-color: red;
+}
+
+
+
+.container{
+    background-color: whitesmoke;
+}
+
+
+
+
+
 
